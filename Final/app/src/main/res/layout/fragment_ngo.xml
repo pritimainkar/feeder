@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ngo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="311dp"
+            android:layout_marginLeft="33dp"
+            android:layout_height="172dp"
+            android:src="@drawable/ngo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="337dp"
+            android:layout_height="137dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Giving is not just about making a donation, it is about making a difference. If you have surplus \n\nCLOTHES      BOOKS      FOOD \n\n give them to those who don't have enough. Find the NGOs and orphanages near you here!"
+            android:textAlignment="center"
+            android:textColor="#080909"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/nearby_ngo"
+            android:layout_width="151dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="100dp"
+            android:background="#009688"
+            android:text="Find Here!"
+            android:textColor="#FCF9F9" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="66dp" />
+
+
+    </LinearLayout>
+</ScrollView>

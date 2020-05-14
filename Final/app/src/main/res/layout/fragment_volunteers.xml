@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Volunteers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="311dp"
+            android:layout_marginLeft="33dp"
+            android:layout_height="172dp"
+            android:src="@drawable/volunteer" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="310dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="Fill out the below form to become a volunteer and we will get back to you! "
+            android:textColor="#080909"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/be_one"
+            android:layout_width="157dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="100dp"
+            android:background="#009688"
+            android:text="Form"
+            android:textColor="#FFFFFF" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="308dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="NEARBY VOLUNTEERS-"
+            android:textColor="#080909"
+            android:textSize="14sp" />
+
+        <ListView
+            android:id="@+id/volunteerList"
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+
+            android:textColor="#F8504747"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="234dp">
+
+        </ListView>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

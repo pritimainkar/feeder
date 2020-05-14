@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/totalbackground"
+    tools:context=".sorted">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:text="DONATE VIA US!"
+            android:textColor="#F7F1F1"
+            android:textSize="36sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="292dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"
+            android:text="If you would like to make monetary donations, we accept them!"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <Button
+            android:id="@+id/qr_code"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:background="#FA0C0C0C"
+            android:text="show qr code"
+            android:textColor="#F8F6F6" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:text="Email- feeder@gmail.com"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="318dp"
+            android:layout_height="246dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:text=" How it Works- \n \n 1. You make a donation to the above QR Code or UPI and send a photo of confirmation to the given email with your Name and Number (you can also make anonymous donations).\n 2. We do the donations on your behalf and send you the photo of the receipt and the NGO details via email in 2 weeks. "
+            android:textColor="#FDFFFFFF"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="327dp"
+            android:layout_height="259dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="10dp"
+            android:text="* TERMS AND CONDITIONS - \n The donations has to be in Indian currency only and Rs. 1000 and above. All donations below Rs, 1000 will be considered invalid and no refund will be generated for them. We take a nominal charge - 5% of every donation made. Please know that this is not an NGO but simply  an initiative taken by like-minded individuals. * "
+            android:textColor="#1EE9CB"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/agreed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have read and agree to the above terms and conditions."
+            android:textColor="#FFFFFF" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="111dp" />
+
+    </LinearLayout>
+</ScrollView>

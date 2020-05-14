@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".contactus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:text="After clicking submit, use gmail or similar app to finish action."
+            android:textColor="#742810"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Your Full Name"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="Your Contact Number"
+            android:inputType="number"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ngo_name"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:hint="NGO name or Full name of the person you are helping"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ngo_number"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:hint="Contact number of NGO or the person who you are helping"
+            android:inputType="number"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/ngo_email"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="NGO email address"
+            android:inputType="textEmailAddress"
+            android:textSize="12sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="44dp" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="138dp"
+            android:layout_height="36dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="100dp"
+            android:background="#009688"
+            android:text="SUBMIT"
+            android:textColor="#F8F3EFEF"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="202dp" />
+    </LinearLayout>
+
+</ScrollView>

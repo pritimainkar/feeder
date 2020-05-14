@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolunteerList">
+
+    <ListView
+        android:id="@+id/volunteerList"
+        android:layout_width="370dp"
+        android:layout_height="575dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:textColor="#F8504747"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="234dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/beVolunteer"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="80dp"
+        android:background="#FF5722"
+        android:text="Be a Volunteer!"
+        android:textColor="#FAFFFFFF" />
+</RelativeLayout>

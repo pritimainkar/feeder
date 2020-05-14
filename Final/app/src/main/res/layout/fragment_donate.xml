@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Donate">
+
+    <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                 />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="311dp"
+                android:layout_marginLeft="33dp"
+                android:layout_height="172dp"
+                android:src="@drawable/donate" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="373dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="33dp"
+                android:text="Email- feeder@gmail.com"
+                android:textColor="#070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="310dp"
+                android:layout_height="67dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:layout_marginStart="31dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:text="Send money to the details provided after you agree to the TnC. We will do the donations on your behalf and email you the receipt."
+                android:textColor="#FD050505"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <CheckBox
+                android:id="@+id/agreed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have read and agreed to the given terms and conditions."
+                android:textColor="#141313" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="321dp"
+                android:layout_height="102dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="10dp"
+                android:text="* TERMS AND CONDITIONS - \n Send a confirmation email of the money sent to the above email and we will be in touch with you. The donations has to be in Indian currency only and Rs. 1000 and above. All donations below Rs, 1000 will be considered invalid and no refund will be generated for them. Please know that this is not an NGO but simply  an initiative taken by like-minded individuals. * "
+                android:textColor="#2A3F3C"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="111dp" />
+
+        </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/totalbackground"
+    tools:context=".beVolunteer">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="308dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="If you are in contact in any way to an NGO or know people who need help, contact us.  We will verify your information and add you to the list of volunteers on our platform in 2 weeks."
+            android:textColor="#F7FAFA"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="37dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="318dp"
+            android:layout_height="246dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="What you need to send us- \n \n 1. Your name, email address, contact number.\n 2. Name and number of the NGO you are in contact with OR details of the person you want help for (name, number and photo). \n 3. Proof of your identity - any active social media handle, adharcard, pancard (this will not be made public)"
+            android:textColor="#FDFFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:background="#009688"
+            android:text="Contact Us"
+            android:textColor="#F8F5F5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="37dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="303dp"
+            android:layout_height="193dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            android:text="* NOTE - Feeder is in no way connected or has collaborated with any of the NGO's or the volunteers available. It is merely a platform where people with similar mindsets can meet each other. It is not responsible for any of the actions of the NGO's or the volunteers. *"
+            android:textColor="#1EE9CB"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/totalbackground"
+    tools:context=".aboutus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="ABOUT US"
+            android:textColor="#FDFAFA"
+            android:textSize="36sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="279dp"
+            android:layout_height="128dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="14dp"
+            android:text="Feeder is a platform where we help you to connect with NGO's and food donation centres near you so that the surplus food in occassions like weddings, birthdays as well as everyday leftovers could be donated to the poor and hungry who cannot afford to make everyday ends meet. "
+            android:textColor="#FFEB3B"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="315dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:text="1. If you have surplus food, clothing or wish to donate money, look for donation spots near you from the map  and donate directly."
+            android:textColor="#F8FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/donation_spots"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:background="#009688"
+            android:text="Nearby Donation Spots"
+            android:textColor="#F8F6F5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="309dp"
+            android:layout_height="95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:text="2. If there is no donation spot near you, try to find a nearby volunteer and donate through them."
+            android:textColor="#FAFFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/volunteers"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:background="#009688"
+            android:text="Nearby Volunteers"
+            android:textColor="#FAF8F8" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="312dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="10dp"
+            android:text="3. If you cannot find a spot or a volunteer, donate through us!"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/donate_via_us"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:background="#009688"
+            android:text="Donate through Us!"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="285dp"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="14dp"
+            android:text="How can you help? Donate the surplus clothes, food and books you have to the needy by finding them on this platform OR donate through us!"
+            android:textColor="#FFEB3B"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+</ScrollView>
